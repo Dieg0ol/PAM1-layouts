@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
-        android:text="TextView"
+        android:text="@string/chegada"
         app:layout_constraintStart_toStartOf="@+id/editText2"
         app:layout_constraintTop_toBottomOf="@+id/editText2" />
 
@@ -22,7 +22,7 @@
         android:layout_marginStart="108dp"
         android:layout_marginLeft="108dp"
         android:layout_marginTop="36dp"
-        android:text="TextView"
+        android:text="@string/saida"
         app:layout_constraintStart_toEndOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/editText2" />
 
@@ -31,7 +31,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="Button"
+        android:text="@string/selecione"
         app:layout_constraintStart_toStartOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
@@ -39,11 +39,11 @@
         android:id="@+id/button2"
         android:layout_width="87dp"
         android:layout_height="53dp"
-        android:layout_marginStart="68dp"
-        android:layout_marginLeft="68dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginLeft="116dp"
         android:layout_marginTop="28dp"
         android:drawingCacheQuality="auto"
-        android:text="Button"
+        android:text="@string/selecione"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         app:layout_constraintBottom_toTopOf="@+id/textView8"
         app:layout_constraintStart_toEndOf="@+id/button"
@@ -56,7 +56,7 @@
         android:layout_height="42dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Nome"
+        android:text="@string/destino"
         tools:layout_editor_absoluteX="35dp"
         tools:layout_editor_absoluteY="68dp" />
 
@@ -67,7 +67,7 @@
         android:layout_marginStart="120dp"
         android:layout_marginLeft="120dp"
         android:layout_marginBottom="30dp"
-        android:text="Hello!"
+        android:text="@string/destino"
         app:layout_constraintBottom_toTopOf="@+id/editText2"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -76,7 +76,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
-        android:text="TextView"
+        android:text="@string/orcamento"
         app:layout_constraintStart_toStartOf="@+id/button"
         app:layout_constraintTop_toBottomOf="@+id/button" />
 
@@ -96,7 +96,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
-        android:text="TextView"
+        android:text="@string/npessoas"
         app:layout_constraintStart_toStartOf="@+id/editText4"
         app:layout_constraintTop_toBottomOf="@+id/editText4" />
 
@@ -109,7 +109,7 @@
         android:layout_marginTop="28dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="tester"
+        android:text="quantidade de pessoas"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView9"
         app:layout_constraintTop_toBottomOf="@+id/editText4" />
@@ -125,7 +125,7 @@
         android:layout_marginEnd="100dp"
         android:layout_marginRight="100dp"
         android:background="#8694E4"
-        android:text="Button"
+        android:text="@string/selecione"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
